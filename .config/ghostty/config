@@ -1,0 +1,56 @@
+# === Font ===
+font-family = "Maple Mono NF CN"
+font-size = 12
+font-feature = cv03
+font-feature = cv05
+font-feature = ss03
+
+# === Theme: Catppuccin Mocha ===
+background = #1e1e2e
+foreground = #cdd6f4
+cursor-color = #f5e0dc
+selection-background = #45475a
+selection-foreground = #cdd6f4
+
+# Normal colors
+palette = 0=#45475a
+palette = 1=#f38ba8
+palette = 2=#a6e3a1
+palette = 3=#f9e2af
+palette = 4=#89b4fa
+palette = 5=#f5c2e5
+palette = 6=#94e2d5
+palette = 7=#bac2de
+
+# Bright colors
+palette = 8=#585b70
+palette = 9=#f38ba8
+palette = 10=#a6e3a1
+palette = 11=#f9e2af
+palette = 12=#89b4fa
+palette = 13=#f5c2e7
+palette = 14=#94e2d5
+palette = 15=#a6adc8
+
+# === Window ===
+window-width = 150
+window-height = 45
+window-save-state = always
+window-padding-x = 10
+window-padding-y = 6
+window-decoration = auto
+background-opacity = 1.0
+# background-blur-radius = 20
+
+# === Cursor ===
+cursor-style = block
+cursor-style-blink = false
+
+# === Scrollback ===
+scrollback-limit = 10000
+
+# === Terminal ===
+term = xterm-ghostty
+
+# === Shell ===
+command = /bin/bash

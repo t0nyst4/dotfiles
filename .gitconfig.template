@@ -1,0 +1,25 @@
+[safe]
+	directory = *
+
+[user]
+	name = YOUR_NAME
+	email = YOUR_EMAIL
+
+[credential "https://github.com"]
+	helper = !/usr/bin/gh auth git-credential
+
+[core]
+	editor = nvim
+	autocrlf = input
+
+[init]
+	defaultBranch = master
+
+[pull]
+	rebase = true
+
+[push]
+	autoSetupRemote = true
+
+[diff]
+	colorMoved = default
